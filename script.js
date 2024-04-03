@@ -93,13 +93,13 @@ document.body.innerHTML += `Součet všech čísel v poli je: ${sum}`;
 document.body.innerHTML += ` <br>`;
 
 
-let sum2 = 0;
+let sum2 = 0;                           //Spočítejte průměr všech čísel v poli.
 for (let i = 0; i < numbers.length; i += 1) {
   sum2 += numbers[i];
 }
 
 const averageMark = sum2 / numbers.length;
-document.body.innerHTML += `Průměr čísel v seznamu je: ${averageMark}`; // Vypíše průměr čísel v poli.
+document.body.innerHTML += `Průměr čísel v seznamu je: ${averageMark}`; 
 
 document.body.innerHTML += ` <br>`;
 
